@@ -1,0 +1,11 @@
+geoopt==0.5.1
+numba==0.65.1
+numpy>=1.26,<2
+optuna==4.9.0
+pandas>=2.0
+scipy>=1.11
+tqdm>=4.60
+
+# GPU build verified in the training environment (Python 3.10, CUDA 11.8).
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.7.0+cu118
